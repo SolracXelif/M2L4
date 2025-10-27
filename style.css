@@ -1,0 +1,100 @@
+body {
+    font-family: Arial,  sans-serif; /* Familia de fuentes */
+    font-size: 11px; /* El tamaño de la fuente principal en el tag <p></p> */
+    background-color: #f0f0f0; /* El color del fondo de la página web */
+    color: #333333; /* El color del texto*/ 
+}
+h1 {
+    color: #00a800; /* El color de la cabecera */
+    font-size: 24px; /* El tamaño de la fuente de la cabecera */
+    font-family: Georgia, serif; /* La familia tipográfica utilizada en la cabecera */
+    background-color: #292929;
+    display: inline-block;
+    padding: 5px;
+}
+
+p {
+    line-height: 1.6; /* La altura de línea para mejorar la legibilidad */
+    margin-bottom: 15px; /* El espacio debajo de cada párrafo */
+}
+
+hr {
+    border: none; /* Elimina el borde predeterminado */
+    height: 2px; /* El grosor de la línea */
+    background-color: #00a800; /* El color de la línea */
+    margin: 20px 0; /* El espacio arriba y abajo de la línea */
+}
+
+img {
+    border: 2px solid #00a800; /* El borde alrededor de las imágenes */
+    padding: 5px; /* El espacio entre la imagen y el borde */
+    margin: 10px 0; /* El espacio arriba y abajo de la imagen */
+    max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Hace que la imagen se comporte como un bloque */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Añade una sombra sutil a la imagen */
+}
+
+ul {
+    list-style-type: square; /* Cambia el estilo de los puntos de la lista a cuadrados */
+    margin-left: 20px; /* Añade un margen a la izquierda para separar la lista del borde */
+}
+
+li {
+    margin-bottom: 5px; /* Añade espacio debajo de cada elemento de la lista */
+}
+
+h2 {
+    color: #0073e6; /* El color de la subcabecera */
+    font-size: 20px; /* El tamaño de la fuente de la subcabecera */
+    font-family: 'Trebuchet MS', sans-serif; /* La familia tipográfica utilizada en la subcabecera */
+    margin-top: 20px; /* El espacio arriba de la subcabecera */
+}
+
+html {
+    scroll-behavior: smooth; /* Habilita el desplazamiento suave para anclas */
+    background-color: #bebebe
+}
+
+@keyframes color-change {
+    0% {
+      color: blue;
+    }
+  
+    25% {
+      color: red;
+    }
+  
+    50% {
+      color: yellow;
+    }
+
+    75% {
+      color: green;
+    }
+
+    100% {
+      color: blue;
+    }
+}
+
+h1:hover {
+    animation: color-change 3s infinite;
+}
+
+h2:hover {
+    animation: color-change 3s infinite;
+}
+
+li:hover {
+    animation: color-change 1s infinite;
+}
+
+p:hover {
+    animation: color-change 5s infinite;
+}
+
+
+
+
+
